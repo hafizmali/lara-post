@@ -1,3 +1,18 @@
+For run this project first of you should follwing these changes
+
+1 rename .env-example to .env and write a db name according  to requirement 
+2 php artisan migrate
+3 php artisan db:seed
+4 php artisan storage:link
+
+
+Note: 
+
+ your user email show in console, while you run this commands
+ your email is should be admin@admin.com and password should be : admin123
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
